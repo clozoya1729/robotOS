@@ -1,0 +1,1 @@
+/* MCU linker script placeholder */

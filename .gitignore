@@ -1,0 +1,65 @@
+# Compiled object files
+*.o
+*.obj
+
+# Compiled dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled static libraries
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.elf
+*.bin
+*.map
+
+# Build system artifacts
+/build/
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+
+# Logs and debug
+*.log
+*.dmp
+*.stackdump
+*.tmp
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*~
+*.user
+*.suo
+*.ncb
+*.opensdf
+*.VC.db
+*.VC.opendb
+
+# OS-specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Generated docs
+/docs/html/
+docs/*.pdf
+_archive/
+
+# Test coverage / profiling
+*.gcno
+*.gcda
+*.prof
+*.gcov
+
+# Kernel/OS specific
+*.iso
+*.img
+*.hex
