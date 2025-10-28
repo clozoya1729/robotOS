@@ -1,15 +1,11 @@
-<p align="center">
-  <img src="_assets/image/car.png" width="175">
-</p>
-
 # robotOS
+
+**Robot Operating System (embedded, real-time)**
 
 [![Patreon](https://img.shields.io/badge/Support-Patreon-051D34?logo=patreon&logoColor=white)](https://www.patreon.com/lozoya)
 [![Buy Me A Coffee](https://img.shields.io/badge/Donate-Buy%20Me%20A%20Coffee-FFDD00?logo=buymeacoffee&logoColor=white)](https://www.buymeacoffee.com/clozoya172b)
 [![Ko-fi](https://img.shields.io/badge/Tip-Ko%E2%80%91fi-FF5E5B?logo=kofi&logoColor=white)](https://ko-fi.com/lozoya)
 ![License](https://img.shields.io/badge/license-AGPL--3.0-blue)
-
-**Robot Operating System**
 
 A lightweight embedded operating system in C for mobile and manipulator robots.  
 This project focuses on a certifiable, real-time kernel and the platform services needed for perception, planning, and
@@ -32,7 +28,7 @@ of interfacing with any hardware through well-defined extension points.
 
 ---
 
-## 1. Scope
+## Scope
 
 Start with one platform to iterate quickly; expand to multi-controller robots later.
 
@@ -58,7 +54,7 @@ Start with one platform to iterate quickly; expand to multi-controller robots la
 
 ---
 
-## 2. Architecture
+## Architecture
 
 All C, static configuration-first.
 
@@ -73,7 +69,7 @@ All C, static configuration-first.
 
 ---
 
-## 3. Kernel Feature Set
+## Kernel Feature Set
 
 - **Scheduling:** fixed-priority preemptive or cyclic; tickless timer.
 - **Interrupts:** bounded latency ISRs; defer to tasks.
@@ -83,7 +79,7 @@ All C, static configuration-first.
 
 ---
 
-## 4. Platform Services
+## Platform Services
 
 ### Communication
 
@@ -112,7 +108,7 @@ All C, static configuration-first.
 
 ---
 
-## 5. Safety & Process
+## Safety & Process
 
 - **Coding Standard:** MISRA C:2012; deterministic control flow.
 - **Static Analysis:** Cppcheck, PC-lint, Coverity (as available).
@@ -122,14 +118,14 @@ All C, static configuration-first.
 
 ---
 
-## 6. Hardware Targets
+## Hardware Targets
 
 - **MCUs:** STM32 (M4/M7/M33), NXP S32K, Renesas RA/RH, TI Sitara/AM-MCU.
 - **Desired peripherals:** HW timers, multiple PWM, QEI encoders, CAN-FD, Ethernet MAC, DMA, MPU/ECC.
 
 ---
 
-## 7. Deliverables (Phased)
+## Deliverables (Phased)
 
 - **Phase 0 — Board Bring-up**  
   Clock tree, startup.s, linker, UART console, GPIO, timers.
@@ -146,7 +142,7 @@ All C, static configuration-first.
 
 ---
 
-## 8. Toolchain & CI
+## Toolchain & CI
 
 - **Compiler:** Vendor toolchains or `arm-none-eabi-gcc`; warnings as errors.
 - **Build:** Make or CMake; artifacts: ELF, map, size, unit-test reports.
@@ -155,7 +151,7 @@ All C, static configuration-first.
 
 ---
 
-## 9. Design Guidelines
+## Design Guidelines
 
 - Keep ISR bodies tiny; move work to tasks via events/queues.
 - No heap after init; fixed pools; bounds/CRC on external I/O.
@@ -165,7 +161,7 @@ All C, static configuration-first.
 
 ---
 
-## 10. First Milestone
+## First Milestone
 
 - Kernel running with 1 kHz (fast), 100 Hz (medium), 10 Hz (slow) tasks.
 - Motor PWM + encoder loop: close a simple PID on a single wheel.
@@ -305,6 +301,7 @@ This project is licensed under the GNU Affero General Public License v3.0 (AGPL-
 ![License](https://img.shields.io/badge/license-AGPL--3.0-blue)
 
 ---
+
 
 
 
