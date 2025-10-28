@@ -1,11 +1,15 @@
-# robotOS
+<p align="center">
+  <img src="_assets/image/robot-dog.png" width="175">
+</p>
 
-**Robot Operating System (embedded, real-time)**
+# robotOS
 
 [![Patreon](https://img.shields.io/badge/Support-Patreon-051D34?logo=patreon&logoColor=white)](https://www.patreon.com/lozoya)
 [![Buy Me A Coffee](https://img.shields.io/badge/Donate-Buy%20Me%20A%20Coffee-FFDD00?logo=buymeacoffee&logoColor=white)](https://www.buymeacoffee.com/clozoya172b)
 [![Ko-fi](https://img.shields.io/badge/Tip-Ko%E2%80%91fi-FF5E5B?logo=kofi&logoColor=white)](https://ko-fi.com/lozoya)
 ![License](https://img.shields.io/badge/license-AGPL--3.0-blue)
+
+**Robot Operating System**
 
 A lightweight embedded operating system in C for mobile and manipulator robots.  
 This project focuses on a certifiable, real-time kernel and the platform services needed for perception, planning, and
@@ -301,6 +305,7 @@ This project is licensed under the GNU Affero General Public License v3.0 (AGPL-
 ![License](https://img.shields.io/badge/license-AGPL--3.0-blue)
 
 ---
+
 
 
 
