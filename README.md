@@ -1,8 +1,15 @@
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/L4L51IYAOI)
+<p align="center">
+  <img src="_assets/image/car.png" width="175">
+</p>
 
 # robotOS
 
-###### Robot Operating System (embedded, real-time)
+[![Patreon](https://img.shields.io/badge/Support-Patreon-051D34?logo=patreon&logoColor=white)](https://www.patreon.com/lozoya)
+[![Buy Me A Coffee](https://img.shields.io/badge/Donate-Buy%20Me%20A%20Coffee-FFDD00?logo=buymeacoffee&logoColor=white)](https://www.buymeacoffee.com/clozoya172b)
+[![Ko-fi](https://img.shields.io/badge/Tip-Ko%E2%80%91fi-FF5E5B?logo=kofi&logoColor=white)](https://ko-fi.com/lozoya)
+![License](https://img.shields.io/badge/license-AGPL--3.0-blue)
+
+**Robot Operating System**
 
 A lightweight embedded operating system in C for mobile and manipulator robots.  
 This project focuses on a certifiable, real-time kernel and the platform services needed for perception, planning, and
@@ -277,9 +284,27 @@ robot-os-c/
 
 ---
 
-## License
+## Support This Work
 
-GNU AFFERO GENERAL PUBLIC LICENSE Version 3
+Open source engineering takes a lot of time and coffee. If you would like to directly support ongoing research, development, and maintenance of these tools, you can do so here:
+
+[![Patreon](https://img.shields.io/badge/Support-Patreon-051D34?logo=patreon&logoColor=white)](https://www.patreon.com/lozoya)
+
+[![Buy Me A Coffee](https://img.shields.io/badge/Donate-Buy%20Me%20A%20Coffee-FFDD00?logo=buymeacoffee&logoColor=white)](https://www.buymeacoffee.com/clozoya172b)
+
+[![Ko-fi](https://img.shields.io/badge/Tip-Ko%E2%80%91fi-FF5E5B?logo=kofi&logoColor=white)](https://ko-fi.com/lozoya)
+
+Your support helps keep the project healthy and moving forward.
 
 ---
+
+## License
+
+This project is licensed under the GNU Affero General Public License v3.0 (AGPL-3.0). Any modified version made available to users over a network must also be released under the AGPL-3.0. See the LICENSE file for full details.
+
+![License](https://img.shields.io/badge/license-AGPL--3.0-blue)
+
+---
+
+
 
